@@ -7,7 +7,7 @@ namespace Tyuiu.ZaicevYaA.Sprint3.Task4.V30.Lib
         public double Calculate(int startValue, int stopValue)
         {
            double b = 0;
-            for (int i = startValue; i < stopValue; i++)
+            for (int i = startValue; i <= stopValue; i++)
             {
                 if (i != 0)
                 {
