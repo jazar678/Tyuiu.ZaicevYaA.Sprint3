@@ -13,16 +13,16 @@ namespace Tyuiu.ZaicevYaA.Sprint3.Task6.V23.Lib
                 {
                     if (i % j == 0)
                     {
-                        count++;
+                        if (j < 11)
+                        {
+                            count++;
+                        }
                     }
 
                 }
-                if (count < 11)
-                {
-                    qw++;
-                }
             }
-            return qw;
+            return count;
+            
         }
     }
 }
