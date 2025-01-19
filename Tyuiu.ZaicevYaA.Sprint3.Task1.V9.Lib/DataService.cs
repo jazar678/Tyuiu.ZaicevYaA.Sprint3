@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using tyuiu.cources.programming.interfaces;
+﻿
 using tyuiu.cources.programming.interfaces.Sprint3;
 namespace Tyuiu.ZaicevYaA.Sprint3.Task1.V9.Lib
 {
