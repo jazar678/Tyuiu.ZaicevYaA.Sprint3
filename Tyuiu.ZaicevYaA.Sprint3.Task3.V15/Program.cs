@@ -28,7 +28,7 @@ namespace Tyuiu.ZaicevYaA.Sprint3.Task3.V15
             Console.WriteLine("*****************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                    *");
             Console.WriteLine("*****************************************************************");
-            Console.WriteLine("ответ " + dataService.GetMaxCharCount(value,item));
+            Console.WriteLine("ответ " + dataService.GetMinCharCount(value,item));
             Console.ReadKey();
         }
     }

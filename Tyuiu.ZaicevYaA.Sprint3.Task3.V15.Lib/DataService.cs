@@ -6,11 +6,13 @@ namespace Tyuiu.ZaicevYaA.Sprint3.Task3.V15.Lib
         public int GetMinCharCount(string value, char item)
         {
             int count = 0;
-            foreach (char c in value)
+            char[] lox = value.ToCharArray();
+            for (int i = 0; i < lox.Length; i++)
             {
-                if (c == item)
+                if ((lox[i] == item) & (lox[i + 1] == item))
                 {
                     count++;
+                    break;
                 }
             }
             return count;
